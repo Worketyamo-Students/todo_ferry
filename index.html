@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body class="w-screen lg:h-screen ">
+    <section class="w-full lg:h-full h-[75rem] flex flex-col">
+        <div  class="w-full h-[35vh]  bg-[url('ressources/images/montagnes.png')] bg-no-repeat bg-center bg-cover flex justify-center items-center ">
+            <div class="lg:w-[40vw]  w-[90vw] lg:h-[90%]  flex flex-col gap-[2rem] absolute top-0 lg:mt-[3rem] mt-[2rem] drop-shadow-lg">
+                  <div class=" w-full h-[7rem]  flex flex-row items-center justify-between  ">
+                    <span class="lg:text-[4rem] text-[3rem] font-bold text-white_color">TODO</span>
+                     <img src="ressources/icones/lune.png" alt="">
+                  </div>
+                  <div class="w-full h-[6rem]  bg-white_color rounded-lg flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                     <img src="ressources/icones/cercle.png" alt="" class="w-[3rem] h-[3rem]">  
+                     <input type="text" placeholder="Create a new todo…" class="lg:text-[2rem] text-[1.2rem] w-full h-[80%]">  
+                  </div>
+                  <div class="  h-[70%] rounded-lg  drop-shadow-lg divide-y divide-solid">
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                        <img src="ressources/icones/cerclcoch.png" alt="" class="w-[3rem] h-[3rem]">  
+                        <p class="lg:text-[2rem] text-[1.2rem] w-full h-[80%]  flex items-center text-opatextcolor"> Complete online JavaScript course</p> 
+                    </div>
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                        <img src="ressources/icones/cercle.png" alt="" class="w-[3rem] h-[3rem]">  
+                        <p class="lg:text-[2rem] text-[1.2rem] w-full h-[80%] flex items-center"> Jog around the park 3x</p> 
+                    </div>
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                        <img src="ressources/icones/cercle.png" alt="" class="w-[3rem] h-[3rem]">  
+                        <p class="lg:text-[2rem] text-[1.2rem] w-full h-[80%] flex items-center">10 minutes meditation</p> 
+                    </div>
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                        <img src="ressources/icones/cercle.png" alt="" class="w-[3rem] h-[3rem]">  
+                        <p class="lg:text-[2rem] text-[1.2rem] w-full h-[80%] flex items-center">Read for 1 hour</p> 
+                    </div>
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                        <img src="ressources/icones/cercle.png" alt="" class="w-[3rem] h-[3rem]">  
+                        <p class="lg:text-[2rem] text-[1.2rem] w-full h-[80%] flex items-center"> Pick up groceries</p> 
+                    </div>
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] gap-[1.5rem]">
+                        <img src="ressources/icones/cercle.png" alt="" class="w-[3rem] h-[3rem]">   
+                        <p class="lg:text-[2rem] text-[1.2rem] w-full h-[80%] flex items-center">Complete Todo App on Frontend Mentor</p> 
+                    </div>
+                    <div class="w-full h-[6rem] bg-white_color flex flex-row items-center px-[2rem] justify-between text-gray_color">
+                       <p>5 items left</p>
+                       <div class="w-[16rem lg:flex lg:flex-row lg:gap-[1rem] lg:block hidden">
+                          <button class="text-blue_color">All</button>
+                          <button>Active</button>
+                          <button>Completed</button>
+                       </div>
+                       <p>Clear Completed</p>
+                    </div>
+                  </div>
+                  <div class=" flex flex-row gap-[1rem] w-full h-[6rem] bg-white_color justify-center items-center px-[2rem] lg:hidden ">
+                    <button class="text-blue_color">All</button>
+                    <button>Active</button>
+                    <button>Completed</button>
+                 </div>
+                  <p class="text-[1.2rem] text-gray_color self-center mt-[1rem] ">Drag and drop to reorder list</p>
+            </div>
+        </div>
+       
+    </section>
+</body>
+</html>
